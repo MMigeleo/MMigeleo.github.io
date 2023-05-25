@@ -1,13 +1,14 @@
 body {
-        background: url(lotrwall.png) no-repeat center fixed;
-        background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(lotrwall.png) no-repeat center fixed;
+  background-size: cover;
+  padding: 15%;
       }
       body {
         margin: auto;
         width: 740px; 
         padding: 50px;
         font-family: apple chancery; 
-        color: #2E475D;    
+            
       }
   div {
     font-size: larger;
@@ -62,6 +63,17 @@ body {
       }
       .btn3:hover::before{
         transform: scaleX(1);
+      }
+      img {
+        align-items:baseline;
+        border: 2px solid rgb(230, 233, 185);
+
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
       }
 
       
