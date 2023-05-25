@@ -1,0 +1,67 @@
+body {
+        background: url(lotrwall.png) no-repeat center fixed;
+        background-size: cover;
+      }
+      body {
+        margin: auto;
+        width: 740px; 
+        padding: 50px;
+        font-family: apple chancery; 
+        color: #2E475D;    
+      }
+  div {
+    font-size: larger;
+    padding: 2rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: rgb(204, 197, 156);
+    margin: 50px;
+    border: 1px solid rgb(230, 233, 185);
+    }
+    .btn{
+        background: rgba(183, 170, 102, 0.896);
+        border: 2px solid #000;
+        text-transform: uppercase;
+        padding: 12px 20px;
+        min-width: 200px;
+        margin: 10px;
+        cursor: pointer;
+        transition: color 0.4s linear;
+        position: relative;
+      }
+      .btn:hover{
+        color: #ffffff;
+      }
+      .btn::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #201f1f;
+        z-index: -1;
+        transition: transform 0.5s;
+        
+        
+      }
+      .btn1::before{
+        transform: scaleX(0);
+      }
+      .btn2::before{
+        transform: scaleY(0);
+      }
+      .btn3::before{
+        transform: scaleX(0);
+      }
+      .btn1:hover::before{
+        transform: scaleX(1);
+      }
+      .btn2:hover::before{
+        transform: scaleY(1);
+      }
+      .btn3:hover::before{
+        transform: scaleX(1);
+      }
+
+      
